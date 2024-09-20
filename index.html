@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe collection</title>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.1.1/firebase-database.js"></script>
+</head>
+<body id="page-top">
+    
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container-1">
+            <div class="masthead-subheading">Welcome To Our Kitchen!</div>
+            <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+            <a class="btn btn-primary btn-xl text-uppercase" href="./seeOurRecipes.html">See Our Recipes</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="./addRecipes.html">Add your Recipe</a>
+        </div>
+    </header>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyBzyF9u1Q6LKHidkc5PjgWNg9E8lWkDLao",
+          authDomain: "my-recipe-app-oamk.firebaseapp.com",
+          projectId: "my-recipe-app-oamk",
+          storageBucket: "my-recipe-app-oamk.appspot.com",
+          messagingSenderId: "52075609846",
+          appId: "1:52075609846:web:0dec773534886ab6b7f6d7"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+    <script src="./js/app.js" type="module"></script>
+
+</body>
+</html>

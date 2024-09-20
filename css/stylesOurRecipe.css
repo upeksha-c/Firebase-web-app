@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/*!
+* Start Bootstrap - Agency v7.0.12 (https://startbootstrap.com/theme/agency)
+* Copyright 2013-2023 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap  v5.2.3 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: 0.25;
+}
+
+
+
+
+
+
+body {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  color: #fff;
+  background-color:#1b1e21d6;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container-1 {
+  background-color: #1b1e2157;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  display: inline-block;
+  width: 50%;
+  color: #fff;
+}
+.container-1 h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 3%;
+  margin: 0%;
+}
+header.masthead {
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.d-block w-100{
+  width: 10px;
+}
+.cassarol-box{
+  display: flex; /* Flexbox to align items side by side */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Optional, for spacing between items */
+  padding: 20px;
+  border: 1px solid #ccc;
+  max-width: 800px; /* Set a max width for the container */
+  margin: 20px auto; /* Center the container on the page */
+  margin-top: 0%;
+}
+.img-box{
+  flex: 1; /* Image takes up 50% of the space */
+  margin-right: 20px; /* Adds space between the image and the text */
+}
+.cassarol-box .img-box img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Keep image proportions */
+  border-radius: 10px; /* Optional: makes the image corners round */
+}
+.description-box{
+  flex: 1;
+  color: #fff;
+}
+.description-box h3{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+}
+
+.description-box p {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  margin-top: 10px;
+  line-height: 1.5;
+}
